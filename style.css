@@ -72,7 +72,7 @@ footer > a:hover {
 
 section.img {
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
     background-attachment: fixed;
     box-shadow: inset 15px 15px 15px 15px black;
 }
