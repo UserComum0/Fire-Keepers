@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'OptimusPrinceps';
+    src: url(fontes/OptimusPrinceps.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: 'Times New Roman', Times, serif; 
+    --fonte2: 'OptimusPrinceps';
+    --fonte3: "Lora", serif;
+}
+
+body {
+    font-family: var(--fonte1);
+    background-color: white;
+    color: black;
+}
+
+header {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, white, black);
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    text-align: center;
+    font-size: 7.5vw;
+}
+
+header > p {
+    text-align: center;
+    font-size: 3vw;
+    color: #707070;
+}
+
+section {
+    background-color: #08090A;
+    color: white;
+}
+
+section > p {
+    padding: 30px;
+    font-size: 4vw;
+}
+
+footer {
+    background-image: linear-gradient(to top, #E8E8E8, #08090A);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    padding-top: 30px;
+    
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
+
+section.img {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+section.img > div {
+    padding: 30px;
+}
+
+section.img > div > p{
+    background-color: #70707059;
+    max-width: 900px;
+    font-size: 4vw;
+    padding: 10px;
+}
+
+section#primeiro {
+    padding-top: 30px;
+}
+
+section#img-1 {
+    background-image: url(imgs/dba6paq-acbff29f-f42d-4edd-8b23-f4d94279b7e7.jpg);
+
+}
+
+section#img-2 {
+    background-image: url(imgs/shanalotte_by_chickhawk96_dcwsets-414w.jpg);
+}
