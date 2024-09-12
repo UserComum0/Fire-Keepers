@@ -33,12 +33,12 @@ header {
 header > h1 {
     font-family: var(--fonte2);
     text-align: center;
-    font-size: 7.5vw;
+    font-size: 8.5vw;
 }
 
 header > p {
     text-align: center;
-    font-size: 3vw;
+    font-size: 4vw;
     color: #707070;
 }
 
@@ -49,15 +49,15 @@ section {
 
 section > p {
     padding: 30px;
-    font-size: 4vw;
+    font-size: 5vw;
 }
 
 footer {
     background-image: linear-gradient(to top, #E8E8E8, #08090A);
-    font-size: 1.5em;
+    font-size: 2vw;
     text-align: center;
     padding: 5px;
-    padding-top: 30px;
+    padding-top: 50px;
     
 }
 
@@ -83,7 +83,7 @@ section.img > div {
 section.img > div > p{
     background-color: #70707059;
     max-width: 900px;
-    font-size: 4vw;
+    font-size: 5vw;
     padding: 10px;
 }
 
@@ -97,5 +97,5 @@ section#img-1 {
 }
 
 section#img-2 {
-    background-image: url(imgs/dark_souls_by_legendary_memory_d645b7x-fullview.jpg);
+    background-image: url(imgs/fire_keeper__dark_souls_iii__by_emmanettip_dc3f7dh-fullview.jpg);
 }
