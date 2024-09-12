@@ -39,7 +39,7 @@ header > h1 {
 header > p {
     text-align: center;
     font-size: 4vw;
-    color: #707070;
+    color: #3a0f0f;
 }
 
 section {
@@ -54,7 +54,7 @@ section > p {
 
 footer {
     background-image: linear-gradient(to top, #E8E8E8, #08090A);
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
     padding: 5px;
     padding-top: 50px;
@@ -63,7 +63,7 @@ footer {
 
 footer > a {
     text-decoration: none;
-    color: rgb(134, 134, 134);
+    color: rgb(92, 22, 22);
 }
 
 footer > a:hover {
